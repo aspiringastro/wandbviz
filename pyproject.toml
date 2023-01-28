@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wandbviz"
+version = "0.0.1"
+authors = [
+  { name="Aspiring Astro", email="aspiring.astro@gmail.com" },
+]
+description = "Weights and Bias visualizer that generates animated GIFs of training neural nets"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords=[ 'pytorch', 'weights', 'biases', 'neural networks', 'ML', 'machine learning', 'visualizer',  'bertviz' ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aspiringastro/wandbviz"
+"Bug Tracker" = "https://github.com/aspiringastro/wandbviz/issues"
